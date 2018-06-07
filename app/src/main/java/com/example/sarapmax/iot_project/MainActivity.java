@@ -54,8 +54,8 @@ public class MainActivity extends BlunoLibrary {
         setContentView(R.layout.activity_main);
         onCreateProcess();
 
-//        serialBegin(115200);
-        serialBegin(9600);
+        serialBegin(115200);
+//        serialBegin(9600);
 
 //        mTextMessage = (TextView) findViewById(R.id.message);
 //        BottomNavigationView navigation = (BottomNavigationView) findViewById(R.id.navigation);

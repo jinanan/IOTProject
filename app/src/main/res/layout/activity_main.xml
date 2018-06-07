@@ -76,7 +76,6 @@
         android:ems="10"
         android:text="Received Data:"
         android:textSize="24dp"
-        android:visibility="gone"
         app:layout_constraintBottom_toTopOf="@+id/scrollView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -91,7 +90,6 @@
         android:layout_below="@+id/editText2"
         android:layout_marginBottom="63dp"
         android:layout_marginTop="62dp"
-        android:visibility="gone"
         app:layout_constraintBottom_toBottomOf="@+id/navigation"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -107,7 +105,6 @@
             android:layout_below="@+id/editText2"
             android:ems="10"
             android:textSize="14sp"
-            android:visibility="gone"
             tools:layout_editor_absoluteX="132dp"
             tools:layout_editor_absoluteY="393dp" />
     </ScrollView>
